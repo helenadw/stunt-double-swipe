@@ -1,0 +1,19 @@
+.App {
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.App-header {
+  text-align: center;
+}
+
+.logo {
+  height: 15em;
+}
+
+.header-title {
+  margin: 0;
+}

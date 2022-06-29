@@ -1,0 +1,62 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+.interactive-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 40vh;
+}
+
+.card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1em;
+  }
+  
+  .button {
+    border-radius: 200px;
+    padding: 1em 1.1em;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .button.like {
+    border: solid green;
+  }
+  
+  .button.dislike {
+    border: solid red;
+  }
+
+  .dropzone {
+    width: 40vw;
+    height: 100%;
+  }
